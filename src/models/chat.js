@@ -36,7 +36,7 @@ const chatSchema = new mongoose.Schema({
             message: {
                 id: {
                     type: String,
-                    required: true
+                    required: true,
                 },
                 sender: {
                     email: {
